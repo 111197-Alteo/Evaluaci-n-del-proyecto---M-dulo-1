@@ -1,0 +1,8 @@
+<StackLayout>
+    <Label text="Productos" class="titulo"></Label>
+
+    <StackLayout *ngFor="let producto of productos" class="producto">
+        <Label [text]="producto.nombre"></Label>
+        <Label [text]="'$' + producto.precio"></Label>
+    </StackLayout>
+</StackLayout>
