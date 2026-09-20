@@ -1,0 +1,14 @@
+.producto {
+    padding: 15;
+    margin: 5;
+}
+
+.android .producto {
+    background-color: lightblue;
+    border-radius: 10;
+}
+
+.ios .producto {
+    background-color: lightgray;
+    border-radius: 15;
+}
