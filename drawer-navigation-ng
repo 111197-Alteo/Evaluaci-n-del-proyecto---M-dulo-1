@@ -1,0 +1,26 @@
+src/
+├── app/
+│   ├── app.module.ts
+│   ├── app-routing.module.ts
+│   ├── app.component.ts
+│   │
+│   ├── features/
+│   │   ├── home/
+│   │   ├── settings/
+│   │   │
+│   │   └── productos/
+│   │       ├── productos.module.ts
+│   │       ├── productos-routing.module.ts
+│   │       ├── productos.component.ts
+│   │       ├── productos.component.html
+│   │       ├── productos.component.css
+│   │       └── producto-detalle/
+│   │           ├── producto-detalle.component.ts
+│   │           └── producto-detalle.component.html
+│   │
+│   └── services/
+│       └── producto.service.ts
+│
+├── app_resources/
+│   └── images/
+│       └── productos.png
