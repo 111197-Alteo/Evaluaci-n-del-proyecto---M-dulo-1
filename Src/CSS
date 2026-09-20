@@ -1,0 +1,16 @@
+.titulo {
+    font-size: 24;
+    text-align: center;
+}
+
+/* Android */
+.android .titulo {
+    color: blue;
+    font-weight: bold;
+}
+
+/* iOS */
+.ios .titulo {
+    color: purple;
+    font-style: italic;
+}
