@@ -1,14 +1,16 @@
-.producto {
-    padding: 15;
-    margin: 5;
+.titulo {
+    font-size: 24;
+    text-align: center;
 }
 
-.android .producto {
-    background-color: lightblue;
-    border-radius: 10;
+/* Android */
+.android .titulo {
+    color: blue;
+    font-weight: bold;
 }
 
-.ios .producto {
-    background-color: lightgray;
-    border-radius: 15;
+/* iOS */
+.ios .titulo {
+    color: purple;
+    font-style: italic;
 }
